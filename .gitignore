@@ -1,2 +1,2 @@
 # ignore compiled executable
-./hello_travis
+/hello_travis
