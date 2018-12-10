@@ -5,5 +5,5 @@ compiler:
   - gcc
 
 install:
-  - gcc hello_travis hello_travis.c
+  - gcc -o hello_travis hello_travis.c
   - ./hello_travis
