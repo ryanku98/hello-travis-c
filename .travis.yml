@@ -4,7 +4,7 @@ compiler:
   - clang
   - gcc
 
-install:
+script:
   - gcc -o hello_travis hello_travis.c
   - ./hello_travis
 
