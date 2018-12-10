@@ -1,0 +1,9 @@
+language: c
+
+compiler:
+  - clang
+  - gcc
+
+install:
+  - gcc hello_travis hello_travis.c
+  - ./hello_travis
