@@ -7,3 +7,6 @@ compiler:
 install:
   - gcc -o hello_travis hello_travis.c
   - ./hello_travis
+
+notifications:
+  email: false
