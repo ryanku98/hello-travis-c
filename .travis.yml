@@ -1,0 +1,12 @@
+language: c
+
+compiler:
+  - clang
+  - gcc
+
+script:
+  - gcc -o hello_travis hello_travis.c
+  - ./hello_travis
+
+notifications:
+  email: false
